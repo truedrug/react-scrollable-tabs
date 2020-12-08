@@ -1,0 +1,47 @@
+.modal {
+  width: 300px;
+  height: auto;
+  border: 1px solid #ccc;
+  position: fixed;
+  z-index: 500;
+  box-shadow: 1px 3px 10px #ccc;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal header {
+  padding: 10px;
+  text-align: center;
+  background: #dcdde1;
+}
+
+.modal section {
+  padding: 20px;
+  background: #f5f6fa;
+}
+
+.modal footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: #f5f6fa;
+  padding: 5px;
+}
+
+.modal footer button {
+  width: 65px;
+  outline: none;
+  padding: 10px;
+}
+
+.confirm {
+  background: #c23616;
+  border: 1px solid #c23616;
+  color: #fff;
+}
+
+.cancel {
+  background: #fff;
+  border: 1px solid #ccc;
+}

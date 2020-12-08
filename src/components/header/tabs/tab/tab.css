@@ -1,0 +1,21 @@
+.tab {
+  padding: 10px 15px;
+  text-align: center;
+  width: 120px;
+  height: 40px;
+  background: #ecf0f1;
+  cursor: pointer !important;
+  display: inline-block;
+}
+
+.delete-icon {
+  position: relative;
+  top: -6px;
+  left: 20px;
+  padding: 5px;
+}
+
+.delete-icon img {
+  width: 10px;
+  height: 10px;
+}

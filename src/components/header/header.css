@@ -1,0 +1,23 @@
+.header-button {
+  background: transparent;
+  width: 40px;
+  height: 40px;
+  border: none;
+  outline: none;
+  padding: 0;
+}
+
+.icon-btn {
+  width: 100%;
+  height: 100%;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.add-btn {
+  background: #ecf0f1;
+}
+
+.chevron-btn {
+  background: #f7f1e3;
+}

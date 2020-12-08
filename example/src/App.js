@@ -1,10 +1,7 @@
-import React from 'react'
+import React from 'react';
+import { ScrollableTabs } from 'react-scrollable-tabs';
+import 'react-scrollable-tabs/dist/index.css';
 
-import { ExampleComponent } from 'react-scrollable-tabs'
-import 'react-scrollable-tabs/dist/index.css'
+const App = () => <ScrollableTabs width={750} height={500} />;
 
-const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
-}
-
-export default App
+export default App;
