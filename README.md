@@ -13,16 +13,11 @@ npm install --save react-scrollable-tabs
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react';
+import {ScrollableTabs} from 'react-scrollable-tabs';
+import 'react-scrollable-tabs/dist/index.css';
 
-import MyComponent from 'react-scrollable-tabs'
-import 'react-scrollable-tabs/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
+const App = () => <ScrollableTabs width={750} height={500} />;
 ```
 
 ## License
