@@ -20,6 +20,10 @@ import 'react-scrollable-tabs/dist/index.css';
 const App = () => <ScrollableTabs width={750} height={500} />;
 ```
 
+## Demo
+
+https://quirky-khorana-95c179.netlify.app/
+
 ## License
 
 MIT © [truedrug](https://github.com/truedrug)
